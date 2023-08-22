@@ -8,6 +8,8 @@
     "start": "next start",
     "lint": "next lint"
   },
+
+  
   "dependencies": {
     "@emotion/react": "^11.10.8",
     "@emotion/server": "^11.10.0",
