@@ -50,13 +50,13 @@ const Layout = ({children, title}) => {
                 },
               })}
             >
-              <Group>
+              {/* <Group>
                 <ThemeIcon color={'blue'} variant="light">
                   <IconLogout />
                 </ThemeIcon>
                 
                 <Text size="sm">Log out</Text>
-              </Group>
+              </Group> */}
             </UnstyledButton>
           </Navbar.Section>
         </Navbar>

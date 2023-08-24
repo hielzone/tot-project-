@@ -2,6 +2,7 @@ import React from 'react';
 import {
   IconLayoutDashboard,
   IconBuilding,
+  IconBadge,
 } from '@tabler/icons-react';
 import { ThemeIcon, UnstyledButton, Group, Text } from '@mantine/core';
 import Link from 'next/link'
@@ -38,7 +39,7 @@ function MainLink({ icon, color, label, path }) {
 const data = [
   { icon: <IconLayoutDashboard size={16} />, color: 'blue', label: 'Dashboard', path: '' },
   { icon: <IconBuilding size={16} />, color: 'violet', label: 'Product', path: 'product' },
-  { icon: <IconBuilding size={16} />, color: 'violet', label: 'Food', path: 'food' },
+  { icon: <IconBadge size={16} />, color: 'violet', label: 'Food', path: 'food' },
 ];
 
 export function MainLinks() {
